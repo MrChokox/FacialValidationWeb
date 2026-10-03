@@ -1,0 +1,6 @@
+bin/
+obj/
+.vs/
+*.user
+modelos_dlib/*.dat
+models/*.dat

@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projetos VS\\ValidacaoFacialWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\validacaofacialweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\validacaofacialweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\models\\servicoreconhecimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\models\\servicoreconhecimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\models\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\models\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\models\\pessoacadastrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\models\\pessoacadastrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\models\\pessoarepositorypasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\models\\pessoarepositorypasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\controllers\\reconhecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\controllers\\reconhecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\views\\reconhecimento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\views\\reconhecimento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|e:\\projetos vs\\validacaofacialweb\\validacaofacialweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8BDCC54-7D45-4D0D-8344-A1B149EDB76B}|ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj|solutionrelative:validacaofacialweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidacaoFacialWeb",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj",
+              "RelativeToolTip": "ValidacaoFacialWeb\\ValidacaoFacialWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-03T17:37:16.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PessoaCadastrada.cs",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Models\\PessoaCadastrada.cs",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\Models\\PessoaCadastrada.cs",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Models\\PessoaCadastrada.cs",
+              "RelativeToolTip": "ValidacaoFacialWeb\\Models\\PessoaCadastrada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T17:13:17.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Program.cs",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\Program.cs",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Program.cs",
+              "RelativeToolTip": "ValidacaoFacialWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T17:18:40.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPessoaRepository.cs",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Models\\IPessoaRepository.cs",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\Models\\IPessoaRepository.cs",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Models\\IPessoaRepository.cs",
+              "RelativeToolTip": "ValidacaoFacialWeb\\Models\\IPessoaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T17:13:26.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PessoaRepositoryPasta.cs",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Models\\PessoaRepositoryPasta.cs",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\Models\\PessoaRepositoryPasta.cs",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Models\\PessoaRepositoryPasta.cs",
+              "RelativeToolTip": "ValidacaoFacialWeb\\Models\\PessoaRepositoryPasta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T17:13:34.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicoReconhecimento.cs",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Models\\ServicoReconhecimento.cs",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\Models\\ServicoReconhecimento.cs",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Models\\ServicoReconhecimento.cs",
+              "RelativeToolTip": "ValidacaoFacialWeb\\Models\\ServicoReconhecimento.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwB4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T17:13:45.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReconhecimentoController.cs",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Controllers\\ReconhecimentoController.cs",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\Controllers\\ReconhecimentoController.cs",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Controllers\\ReconhecimentoController.cs",
+              "RelativeToolTip": "ValidacaoFacialWeb\\Controllers\\ReconhecimentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T17:15:46.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Views\\Reconhecimento\\Index.cshtml",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\Views\\Reconhecimento\\Index.cshtml",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Views\\Reconhecimento\\Index.cshtml",
+              "RelativeToolTip": "ValidacaoFacialWeb\\Views\\Reconhecimento\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-03T17:17:54.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ValidacaoFacialWeb\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-03T17:18:15.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ValidacaoFacialWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\Projetos VS\\ValidacaoFacialWeb\\ValidacaoFacialWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ValidacaoFacialWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-03T17:18:14.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

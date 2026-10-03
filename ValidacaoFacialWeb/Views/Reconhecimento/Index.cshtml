@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Reconhecimento Facial";
+}
+
+<div class="text-center">
+    <h2>Reconhecimento Facial</h2>
+
+    <video id="video" autoplay playsinline muted
+           style="width:100%; max-width:480px; border-radius:12px; background:#000; transform:scaleX(-1);"></video>
+    <canvas id="canvas" hidden></canvas>
+
+    <div id="status" class="mt-3 fs-5 fw-bold">Iniciando câmera...</div>
+    <button id="btnReiniciar" class="btn btn-primary mt-3" hidden>Tentar novamente</button>
+</div>
+
+@section Scripts {
+    <script>
+        const urlIdentificar = '@Url.Action("Identificar", "Reconhecimento")';
+
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        const statusEl = document.getElementById('status');
+        const btn = document.getElementById('btnReiniciar');
+
+        let timer = null;
+        let enviando = false;
+
+        async function iniciar() {
+            btn.hidden = true;
+            statusEl.className = 'mt-3 fs-5 fw-bold';
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({
+                    video: { width: 640, height: 480, facingMode: 'user' }
+                });
+                video.srcObject = stream;
+                await video.play();
+                statusEl.textContent = 'Olhe para a câmera...';
+                timer = setInterval(analisar, 1000);
+            } catch (e) {
+                statusEl.textContent = 'Não foi possível acessar a câmera: ' + e.message;
+                statusEl.classList.add('text-danger');
+            }
+        }
+
+        async function analisar() {
+            if (enviando || !video.videoWidth) return;
+            enviando = true;
+            try {
+                // Reduz para 480px de largura (mais rápido)
+                const escala = 480 / video.videoWidth;
+                canvas.width = 480;
+                canvas.height = video.videoHeight * escala;
+                canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+                const imagem = canvas.toDataURL('image/jpeg', 0.8);
+
+                const resp = await fetch(urlIdentificar, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ imagem: imagem })
+                });
+                const dados = await resp.json();
+
+                if (dados.identificado) {
+                    parar();
+                    statusEl.textContent = 'Identificado: ' + dados.nome;
+                    statusEl.classList.add('text-success');
+                    // Aqui você segue o fluxo: redirecionar, liberar acesso, etc.
+                    // window.location.href = '/Home/Index';
+                }
+            } catch (e) {
+                console.error(e);
+            } finally {
+                enviando = false;
+            }
+        }
+
+        function parar() {
+            clearInterval(timer);
+            const stream = video.srcObject;
+            if (stream) stream.getTracks().forEach(t => t.stop());
+            btn.hidden = false;
+        }
+
+        btn.addEventListener('click', iniciar);
+        iniciar();
+    </script>
+}
